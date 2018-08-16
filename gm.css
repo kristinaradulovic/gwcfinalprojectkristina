@@ -1,0 +1,337 @@
+/* Page consistency*/
+html{
+    font-family: Times;
+    font-weight: lighter;
+}
+body{
+  background-color: #283747;
+  margin: 0px;
+}
+h1{
+  margin-top: 0;
+}
+
+/* Header Navigation Bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #283747;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+li {
+    display: inline-block;
+    padding: 10px;
+    z-index: 1000;
+}
+
+a {
+    color: white;
+    font-size: 20px;
+    z-index: 1000;
+}
+
+li a:hover {
+    background-color: #3f5165;
+    padding:8px;
+    z-index: 1000;
+}
+
+/* Section 1 About Us */
+.parallax {
+    background-image: url("pic1.png");
+    min-height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+}
+
+/* Mander-Free header and animation*/
+.centered {
+    background-attachment: fixed;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:90px;
+    color:black;
+    text-shadow: 2px 2px 10px white;
+    -webkit-animation: fadein 3s;
+    font-family: 'Cinzel Decorative', cursive;
+    background-color: white;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+#AboutUs{
+  padding-top:50px;
+  height:400px;
+  background-color:#283747;
+  font-size:20px;
+}
+
+/* Section 2*/
+.parallax2 {
+    background-image: url("pic2.png");
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+}
+#AboutGerrymandering{
+  text-align: center;
+  padding-top:50px;
+  margin:0;
+  margin-top: 0;
+  height:950px;
+  background-color:#283747;
+  font-size:20px;
+}
+
+/* Section 3*/
+.parallax3{
+  background-image: url("pic3.jpg");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#Example{
+  padding-top:50px;
+  margin:0;
+  height:880px;
+  background-color:#283747;
+  font-size:20px;
+}
+ /*#MapDiv {
+   height:300px;
+   width: 700px;
+   margin: auto;
+ }*/
+
+ .congressionalmap{
+   float: left;
+   height: 600px;
+   margin-right: 110px;
+   margin-left: 60px;
+ }
+
+.title{
+  padding: 10px;
+}
+
+.total{
+  padding: 10px;
+}
+
+.one{
+  background-color: #fbc97f;
+  float: left;
+  padding: 10px;
+  margin-bottom: 70px;
+}
+
+.seven{
+  background-color: #D15DB2;
+  float: left;
+  padding: 10px;
+  margin-bottom: 70px;
+}
+
+.eight{
+  background-color: #8192D8;
+  float: left;
+  padding: 10px;
+  margin-bottom: 70px;
+}
+
+.nine{
+  background-color: #60A87D;
+  float: left;
+  padding: 10px;
+  margin-bottom: 70px;
+}
+
+.explanation {
+  float: left;
+  margin-left: 60px;
+}
+
+/* Section 4*/
+.parallax4{
+  background-image: url("pic4.jpg");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#HowItWorks{
+  padding-top:50px;
+  margin:0;
+  margin-top: 0;
+  height:570px;
+  background-color:#283747;
+  font-size:20px;
+}
+
+/* Section 5*/
+.parallax5{
+  background-image: url("pic5.png");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  -webkit-animation: backgroundScroll 15s linear 1;
+  -webkit-animation-fill-mode:forwards;
+  animation: backgroundScroll 15s linear 1;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+#logo{
+    height:200px;
+    text-align:center;
+    padding: 200px 0;
+  }
+
+@keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: -1250px 1px;}
+}
+@-webkit-keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: -180px 0px;}
+}
+
+{
+  -webkit-transition-duration: 200ms;
+  transition-duration:200ms;
+}
+#Quiz{
+  padding:50px;
+  margin:0;
+  margin-top: 0;
+  height:1200px;
+  background-color:#283747;
+  font-size:20px;
+}
+
+#submitbutton{
+ color: #3f5165;
+ text-align: center;
+ font-weight: 100;
+ font-size:40px;
+ border:solid 2px #3f5165;
+ border-radius: 50px;
+ padding: 10px 50px;
+ margin-top: 0px;
+ margin-bottom: 20px;
+}
+
+#submitbutton:hover{
+  background-color: #3f5165;
+  color:#fff;
+  position: relative;
+}
+
+.clearbutton{
+ color: #3f5165;
+ font-weight: 100;
+ font-size:30px;
+ border:solid 2px #3f5165;
+ border-radius: 50px;
+ padding: 10px 20px;
+ position: relative;
+}
+
+.clearbutton:hover{
+  background-color: #3f5165;
+  color:#fff;
+  position: relative;
+}
+
+.greenhighlight{
+  color:#13CB44;
+}
+.redhighlight{
+  color:#CA5959;
+}
+/* Section 6*/
+.parallax6{
+  background-image: url("pic6.jpg");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#WorksCited{
+  padding-top: 50px;
+  padding-bottom: 70px;
+  margin:0;
+  height:300px;
+  background-color:#283747;
+  font-size:20px;
+}
+
+/* Overlay for Works Cited */
+.container {
+  position: relative;
+  float: left;
+  background-size: contain;
+  margin-left: 45px;
+  margin-top: 20px;
+  width: 300px;
+  height: 200px;
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 189px;
+  width: 300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3f5165;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
